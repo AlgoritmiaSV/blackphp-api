@@ -1,0 +1,34 @@
+{
+  "system_name": "BlackPHP",
+  "version": "2.0",
+  "number": "21",
+  "last_update": "2024-07-22 21:14:06",
+  "copyright": {
+    "year": "2022- 2024",
+    "author": "Edwin Fajardo",
+    "link": "https://www.edwinfajardo.com"
+  },
+  "technical_support": [
+    {
+      "icon": "phone.png",
+      "name": "Phone",
+      "link": "tel://+50324013621"
+    },
+    {
+      "icon": "telegram.png",
+      "name": "Telegram",
+      "link": "https://t.me/ingEdwinFajardo"
+    },
+    {
+      "icon": "whatsapp.png",
+      "name": "WhatsApp",
+      "link": "https://wa.me/50324013621"
+    },
+    {
+      "icon": "messenger.png",
+      "name": "Messenger",
+      "link": "https://m.me/AlgoritmiaSV"
+    }
+  ],
+  "user_manual": "https://manuales.algoritmia.sv/blackphp/"
+}

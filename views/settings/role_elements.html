@@ -1,0 +1,56 @@
+<div>
+	<a href="#" class="check_table" data-table="table_{{ module_id }}">{{ module_name }}</a>
+</div>
+<div>
+	<table class="details_table" id="table_{{ module_id }}">
+		<thead>
+			<tr>
+				<th>_(Element)</th>
+				<th>_(Read)</th>
+				<th>_(Create)</th>
+				<th>_(Update)</th>
+				<th>_(Delete)</th>
+			</tr>
+		</thead>
+		<tbody>
+			[[ elements ]]
+			<tr>
+				<td data-label="_(Element)">
+					<a href="#" class="check_row">{{ element_name }}</a>
+				</td>
+				<td class="radio_td smallest_cell" data-label="_(Read)">
+					<div class="checkbox_container radio_inline">
+						<label>
+							<input type="checkbox" class="update_check" name="read[]" value="{{ element_id }}" data-source="read">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+				</td>
+				<td class="radio_td smallest_cell" data-label="_(Create)">
+					<div class="checkbox_container radio_inline">
+						<label>
+							<input type="checkbox" class="update_check" name="create[]" value="{{ element_id }}" data-source="create" {{ creatable }}>
+							<span class="checkmark"></span>
+						</label>
+					</div>
+				</td>
+				<td class="radio_td smallest_cell" data-label="_(Update)">
+					<div class="checkbox_container radio_inline">
+						<label>
+							<input type="checkbox" class="update_check" name="update[]" value="{{ element_id }}" data-source="update" {{ updatable }}>
+							<span class="checkmark"></span>
+						</label>
+					</div>
+				</td>
+				<td class="radio_td smallest_cell" data-label="_(Delete)">
+					<div class="checkbox_container radio_inline">
+						<label>
+							<input type="checkbox" class="update_check" name="delete[]" value="{{ element_id }}" data-source="delete" {{ deletable }}>
+							<span class="checkmark"></span>
+						</label>
+					</div>
+				</td>
+			</tr>[[/ elements ]]
+		</tbody>
+	</table>
+</div>

@@ -1,0 +1,58 @@
+	<div id="login">
+		<!--div class="title">_(Log in)</div-->
+		<form action="TestLogin" class="table" data-module="User">
+			<div class="entry cell">
+				<input id="user_input" type="text" name="nickname" placeholder="_(User)" required>
+			</div>
+			<div class="entry cell">
+				<input id="pass_input" type="password" name="password" placeholder="_(Password)" required>
+			</div>
+			<div class="entry cell">
+				<button class="blue_button" type="submit" id="login_button">
+					<img src="public/images/outline/login.png" class="x-small_icon">
+					_(Log in)
+				</button>
+			</div>
+		</form>
+		<div class="sending">
+			<img src="public/images/loading.gif" class="medium_icon">
+			<span>_(Logging in)...</span>
+		</div>
+		<div class="error">
+			<img src="public/images/error.png" class="small_icon">
+			<span>Error</span>
+		</div>
+		<div class="success">
+			<img src="public/images/success.png" class="small_icon">
+			<span>_(Success)</span>
+		</div>
+	</div>
+	<div class="content table">
+		<div class="cell">
+			<img src="public/images/app_logo_light.png" alt="System Logo">
+			<p>{{ system_name }}</p>
+		</div>
+		<div class="cell">
+			<p>_(Provided to):
+				<span class="phone_inline">{{ entity_name }}</span>
+			</p>
+			<img src="{{ entity_logo }}" class="pc_inline">
+		</div>
+	</div>
+	<div class="credits">
+		<div>
+			<p>_(For inquiries and technical support, write to us on WhatsApp): <a href="https://wa.me/50324013621">(503) 2401-3621</a></p>
+		</div>
+		<a href="#alert" data-title="_(Technical support)" data-href="index/technical_support_loader/standalone/">
+			<img src="public/images/technical_support.png" class="small_icon">
+			<span>_(Technical support)</span>
+		</a>
+		<a href="{{ user_manual }}">
+			<img src="public/images/question.png" class="small_icon">
+			<span>_(User manual)</span>
+		</a>
+		<a href="#alert" data-title="{{ about }}" data-href="Settings/info_details_loader/standalone/">
+			<img src="public/images/info.png" class="small_icon">
+			<span>{{ about }}</span>
+		</a>
+	</div>

@@ -1,0 +1,673 @@
+# PACK OF ITALIAN LANGUAGE FOR BLACKPHP
+# Copyright (C)2022-2024 Algoritmia SV
+# This file is distributed under the same license as the PACKAGE BlackPHP.
+# Edwin Fajardo <contacto@edwinfajardo.com>.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BlackPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-01 20:38-0600\n"
+"PO-Revision-Date: 2024-05-01 09:41+UTC-6\n"
+"Last-Translator: Edwin Fajardo <contacto@edwinfajardo.com>\n"
+"Language-Team: Algoritmia SV <desarrollo@algoritmia.sv>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s ago"
+msgstr "%s fa"
+
+msgid "About %s"
+msgstr "Su %s"
+
+msgid "About BlackPHP"
+msgstr "Su BlackPHP"
+
+msgid "Accept"
+msgstr "Accetare"
+
+msgid "activate to sort column ascending"
+msgstr "attivare per ordinare la colonna in ordine crescente"
+
+msgid "activate to sort column descending"
+msgstr "attivare per ordinare la colonna decrescente"
+
+msgid "Activity description"
+msgstr "Descrizione dell'attività"
+
+msgid "activity log"
+msgstr "registro delle attività"
+
+msgid "Activity log"
+msgstr "Registro delle attività"
+
+msgid "Admin user"
+msgstr "Utente amministratore"
+
+msgid "Administrator"
+msgstr "Amministratore"
+
+msgid "Administrator role"
+msgstr "Ruolo amministratore"
+
+msgid "and"
+msgstr "e"
+
+msgid "App info"
+msgstr "Informazioni sull'app"
+
+msgid "App name"
+msgstr "Nome dell'app"
+
+msgid "April"
+msgstr "Aprile"
+
+msgid "at"
+msgstr "il"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "Authors"
+msgstr "Autori"
+
+msgid "Bad request"
+msgstr "Brutta richiesta"
+
+msgid "Bad user or password"
+msgstr "Utente o password errati"
+
+msgid "Black - Lateral menu"
+msgstr "Nero - Menu laterale"
+
+msgid "Blue - Lateral menu"
+msgstr "Blu - Menu laterale"
+
+msgid "Blue - Top menu"
+msgstr "Blu - Menù superiore"
+
+msgid "Browser"
+msgstr "Navigator"
+
+msgid "Cancel"
+msgstr "Anulla"
+
+msgid "Change password"
+msgstr "Cambiare la password"
+
+msgid "Changes have been saved"
+msgstr "I cambiamenti sono stati salvati"
+
+msgid "Choose an option"
+msgstr "Scegliere un'opzione"
+
+msgid "Click here"
+msgstr "Clicca qui"
+
+msgid "Close"
+msgstr "Chiudere"
+
+msgid "Complete name"
+msgstr "Nome completo"
+
+msgid "Confirm new password"
+msgstr "Conferma la nuova password"
+
+msgid "Confirm password"
+msgstr "Conferma la password"
+
+msgid "Contact and technical support"
+msgstr "Contatti e supporto tecnico"
+
+msgid "Continue"
+msgstr "Continuare"
+
+msgid "Create"
+msgstr "Creare"
+
+msgid "created"
+msgstr "ha creato"
+
+msgid "Created at"
+msgstr "Creato il"
+
+msgid "Created by"
+msgstr "Creato da"
+
+msgid "Current password"
+msgstr "Password attuale"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Date and time"
+msgstr "Data e ora"
+
+msgid "day"
+msgstr "giorno"
+
+msgid "days"
+msgstr "giorni"
+
+msgid "December"
+msgstr "Dicembre"
+
+msgid "Delete"
+msgstr "Eliminare"
+
+msgid "deleted"
+msgstr "ha eliminato"
+
+msgid "Deleted %s"
+msgstr "%s eliminati"
+
+msgid "Deleted at"
+msgstr "Eliminato alle"
+
+msgid "Deleted by"
+msgstr "Eliminato da"
+
+msgid "Dependence"
+msgstr "Dipendenza"
+
+msgid "Dependences"
+msgstr "Dipendenze"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Display theme"
+msgstr "Tema della visualizzazione"
+
+msgid "Edit"
+msgstr "Modificare"
+
+msgid "Edit role"
+msgstr "Modificare ruolo"
+
+msgid "Edit user"
+msgstr "Modificare utente"
+
+msgid "Element"
+msgstr "Elemento"
+
+msgid "Element ID"
+msgstr "ID dell'elemento"
+
+msgid "English"
+msgstr "Inglese"
+
+msgid "Enter your installer user and password"
+msgstr "Inserisci il tuo nome utente e la tua password installatore"
+
+msgid "Entity"
+msgstr "Entità"
+
+msgid "entity data"
+msgstr "dati dell'entità"
+
+msgid "Entity data"
+msgstr "Dati dell'entità"
+
+msgid "Entity logo"
+msgstr "Logo dell'entità"
+
+msgid "Entity name"
+msgstr "Nome dell'entità"
+
+msgid "Error"
+msgstr "Errore"
+
+msgid "Error log"
+msgstr "Registro errori"
+
+msgid "Error!"
+msgstr "Errore!"
+
+msgid "Export to Excel"
+msgstr "Esportare in Excel"
+
+msgid "Failed to create the entity"
+msgstr "Impossibile creare l'entità"
+
+msgid "Failed to load page"
+msgstr "Impossibile caricare la pagina"
+
+msgid "Failed to save"
+msgstr "Impossibile salvare"
+
+msgid "February"
+msgstr "Febbraio"
+
+msgid "Filter"
+msgstr "Filtrare"
+
+msgid "filtered from _MAX_ total entries"
+msgstr "filtrato da _MAX_ voci totali"
+
+msgid "First"
+msgstr "Primo"
+
+msgid "For inquiries and technical support, write to us on WhatsApp"
+msgstr "Per domande e supporto tecnico, scriveteci su WhatsApp"
+
+msgid "Friday"
+msgstr "Venerdì"
+
+msgid "From"
+msgstr "Da"
+
+msgid "Give access to"
+msgstr "Dare accesso a"
+
+msgid "Go back"
+msgstr "Ritorna"
+
+msgid "Green - Lateral menu"
+msgstr "Verde - Menu laterale"
+
+msgid "Home"
+msgstr "Inizio"
+
+msgid "hour"
+msgstr "ora"
+
+msgid "Hour"
+msgstr "Ora"
+
+msgid "hours"
+msgstr "ore"
+
+msgid "If you don't have a configuration file, request one now!"
+msgstr "Se non hai un file di configurazione, richiedine uno ora!"
+
+msgid "In construction"
+msgstr "In construzione"
+
+msgid "Incorrect password"
+msgstr "Password errata"
+
+msgid "Installation"
+msgstr "Installazione"
+
+msgid "Installation completed successfully"
+msgstr "Installazione completata con successo"
+
+msgid "It's time to start!"
+msgstr "È ora di iniziare!"
+
+msgid "Italian"
+msgstr "Italiano"
+
+msgid "January"
+msgstr "Gennaio"
+
+msgid "July"
+msgstr "Luglio"
+
+msgid "June"
+msgstr "Giugno"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Last"
+msgstr "Ultimo"
+
+msgid "Last edition by"
+msgstr "Ultima edizione di"
+
+msgid "Last login"
+msgstr "Ultimo accesso"
+
+msgid "Last sessions"
+msgstr "Ultime sessioni"
+
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
+
+msgid "License type"
+msgstr "Tipo di licenza"
+
+msgid "Loading"
+msgstr "Caricamento"
+
+msgid "Log in"
+msgstr "Accedere"
+
+msgid "Log out"
+msgstr "Uscire"
+
+msgid "Logging in"
+msgstr "Entrando"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "May"
+msgstr "Maggio"
+
+msgid "Menu"
+msgstr "Menù"
+
+msgid "minute"
+msgstr "minuto"
+
+msgid "minutes"
+msgstr "minuti"
+
+msgid "Modules"
+msgstr "Moduli"
+
+msgid "Monday"
+msgstr "Lunedì"
+
+msgid "month"
+msgstr "Mese"
+
+msgid "months"
+msgstr "mesi"
+
+msgid "My account"
+msgstr "Il mio account"
+
+msgid "My name"
+msgstr "Il mio nome"
+
+msgid "New password"
+msgstr "Nuova password"
+
+msgid "New role"
+msgstr "Nuovo ruolo"
+
+msgid "New user"
+msgstr "Nuovo utente"
+
+msgid "Next"
+msgstr "Seguente"
+
+msgid "Nickname"
+msgstr "Utente"
+
+msgid "No data available in table"
+msgstr "Nessun dato disponibile nella tabella"
+
+msgid "No matching records found"
+msgstr "Nessun risultato trovato"
+
+msgid "No records found!"
+msgstr "Nessun record trovato!"
+
+msgid "No subdomain chosen"
+msgstr "Nessun sottodominio scelto"
+
+msgid "Not authorized"
+msgstr "Non autorizzato"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "October"
+msgstr "Ottobre"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Passwords do not match"
+msgstr "Le passwords non corrispondono"
+
+msgid "Permissions"
+msgstr "Autorizazzioni"
+
+msgid "Phone"
+msgstr "Telefono"
+
+msgid "PHP info"
+msgstr "Informazioni PHP"
+
+msgid "Please, select an element type from the list"
+msgstr "Per favore, seleziona un tipo di elemento dalla lista"
+
+msgid "preferences"
+msgstr "preferenze"
+
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgid "Previous"
+msgstr "Precedente"
+
+msgid "Print"
+msgstr "Stampare"
+
+msgid "Provided to"
+msgstr "Fornito a"
+
+msgid "Read"
+msgstr "Leggere"
+
+msgid "Registration of more entities is not allowed"
+msgstr "Non è consentita la registrazione di più enti"
+
+msgid "role"
+msgstr "ruolo"
+
+msgid "Role"
+msgstr "Ruolo"
+
+msgid "Role and user"
+msgstr "Ruolo e utente"
+
+msgid "Role details"
+msgstr "Dettagli del ruolo"
+
+msgid "Role name"
+msgstr "Nome del ruolo"
+
+msgid "Roles"
+msgstr "Ruoli"
+
+msgid "Saturday"
+msgstr "Sabato"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Saving"
+msgstr "Salvataggio"
+
+msgid "Search"
+msgstr "Ricerca"
+
+msgid "second"
+msgstr "secondo"
+
+msgid "seconds"
+msgstr "secondi"
+
+msgid "Select"
+msgstr "Selezionare"
+
+msgid "September"
+msgstr "Settembre"
+
+msgid "Server date"
+msgstr "Data del server"
+
+msgid "Session data"
+msgstr "Dati della sessione"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Show _MENU_ entries"
+msgstr "Visualizzazione _MENU_ entries"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Visualizzazione da 0 a 0 di 0 voci"
+
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Visualizzazione da _START_ a _END_ di _TOTAL_ voci"
+
+msgid "Slogan"
+msgstr "Slogan"
+
+msgid "Spanish"
+msgstr "Spagnolo"
+
+msgid "Start"
+msgstr "Inizia"
+
+msgid "Success"
+msgstr "Successo"
+
+msgid "Summary"
+msgstr "Riepilogo"
+
+msgid "Sunday"
+msgstr "Domenica"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System information"
+msgstr "Informazioni di sistema"
+
+msgid "System under maintenance"
+msgstr "Sistema in manutenzione"
+
+msgid "Technical support"
+msgstr "Supporto tecnico"
+
+msgid "Thanks for waiting"
+msgstr "Grazie per aspettare"
+
+msgid "The nickname already exists!"
+msgstr "Il nome utente esiste già!"
+
+msgid "The subdomain %s is not available"
+msgstr "Il sottodominio %s non è disponibile"
+
+msgid "There are active users in this role"
+msgstr "Ci sono utenti attivi in questo ruolo"
+
+msgid "This method will be available very soon"
+msgstr "Questo metodo sarà disponibile molto presto"
+
+msgid "This system makes use of the following resources"
+msgstr "Questo sistema utilizza le seguenti risorse"
+
+msgid "Thursday"
+msgstr "Giovedì"
+
+msgid "to"
+msgstr "a"
+
+msgid "To get started, paste the config file into the program's installation folder"
+msgstr "Per iniziare, incolla il file di configurazione nella cartella di installazione del programma"
+
+msgid "To keep the old password, leave the fields empty"
+msgstr "Per mantenere la vecchia password lasciare i campi vuoti"
+
+msgid "Too many failed attempts, try again in five minutes"
+msgstr "Troppi tentativi falliti, riprova tra cinque minuti"
+
+msgid "Tools"
+msgstr "Utensili"
+
+msgid "trash"
+msgstr "cestino"
+
+msgid "Trash"
+msgstr "Cestino"
+
+msgid "Tuesday"
+msgstr "Martedì"
+
+msgid "Type a word for search"
+msgstr "Digita una parola per la ricerca"
+
+msgid "Update"
+msgstr "Aggiornare"
+
+msgid "updated"
+msgstr "ha aggiornato"
+
+msgid "user"
+msgstr "utente"
+
+msgid "User"
+msgstr "Utente"
+
+msgid "User details"
+msgstr "Dettagli dell'utente"
+
+msgid "User manual"
+msgstr "Manuale d'uso"
+
+msgid "Users"
+msgstr "Utenti"
+
+msgid "Version"
+msgstr "Versione"
+
+msgid "We are sorry! The system is under maintenance"
+msgstr "Ci dispiace! Il sistema è in manutenzione"
+
+msgid "We are sorry! We could not find the requested method"
+msgstr "Ci dispiace! Non siamo riusciti a trovare il metodo richiesto"
+
+msgid "We are sorry! You do not have permissions to access this method"
+msgstr "Ci dispiace! Non hai le autorizzazioni per accedere a questo metodo"
+
+msgid "Website"
+msgstr "Sito web"
+
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+msgid "Welcome to %s!"
+msgstr "Benvenuto a %s!"
+
+msgid "White - Without lateral menu"
+msgstr "Bianco - Nessun menu"
+
+msgid "year"
+msgstr "Anno"
+
+msgid "years"
+msgstr "anni"
+
+msgid "You are creating a new company account. For this action you need to have an account as an installer"
+msgstr "Stai creando un nuovo account aziendale. Per questa azione è necessario disporre di un account come installatore"
+
+msgid "You are not logged in"
+msgstr "Non sei loggato"
+
+msgid "You do not have permissions to perform this operation"
+msgstr "Non hai le autorizzazioni per eseguire questa operazione"
+
+msgctxt "female"
+msgid "a"
+msgstr "una"
+
+msgctxt "female"
+msgid "an"
+msgstr "una"
+
+msgctxt "male"
+msgid "a"
+msgstr "un"
+
+msgctxt "male"
+msgid "an"
+msgstr "un"
+
+msgctxt "time"
+msgid "on"
+msgstr "il"
+
+# 216 messages translated.

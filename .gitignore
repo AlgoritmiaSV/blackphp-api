@@ -1,0 +1,6 @@
+.vscode
+entities/
+vendor/
+node_modules/
+config.php
+.DS_Store

@@ -1,0 +1,40 @@
+/**
+*	Standalone styles
+*	@author Edwin Fajardo
+*	Date-Time: 2022-06-13 04:19
+*/
+.details_content {
+	background-color: transparent !important;
+	margin: 0px !important;
+	box-shadow: none !important;
+}
+
+.details_body
+{
+	padding: 20px 20px 105px 20px;
+}
+
+.details_users
+{
+	width: calc(100% - 10px);
+	position: fixed;
+	background-color: #999999;
+	bottom: 45px;
+}
+
+.details_foot
+{
+	position: fixed;
+	bottom: 0px;
+	border-radius: 3px;
+	background-color: #999999;
+	width: calc(100% - 20px);
+}
+
+@media screen and (max-width: 799px)
+{
+	.details_body
+	{
+		padding: 5px 5px 105px 5px;
+	}
+}
