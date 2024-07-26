@@ -40,16 +40,7 @@ class Settings extends Controller
 	 */
 	public function index()
 	{
-		$this->session_required("html", $this->module);
-		$this->view->standard_menu();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$module = appModulesModel::findBy("module_url", $this->module);
-		$this->view->data["title"] = _($module->getModuleName());
-		$this->view->data["methods"] = availableMethodsModel::where("user_id", Session::get("user_id"))
-		->where("module_id", $module->getModuleId())
-		->orderBy("method_order")->getAllArray();
-		$this->view->data["content"] = $this->view->render("generic_menu", true);
-		$this->view->render("main");
+		$this->json([]);
 	}
 
 	################################ LISTAS Y FORMULARIOS

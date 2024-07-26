@@ -2,49 +2,6 @@
 trait Trash
 {
 	/**
-	 * Papelera
-	 * 
-	 * Muestra una lista de los elementos eliminados del sistema, que
-	 * se pueden filtrar por tipo de elemento y rango de fechas.
-	 * 
-	 * @return void
-	 */
-	public function Trash()
-	{
-		$this->check_permissions("read", "trash");
-		$this->view->standard_list();
-		$this->view->set([
-			"title" => _("Trash"),
-			"print_title" => _("Trash")
-		]);
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["print_header"] = $this->view->render("print_header", true);
-		$args = func_get_args();
-		$options = Array();
-		for($i = 1; $i < func_num_args(); $i = $i + 2)
-		{
-			$options[$args[$i - 1]] = $args[$i];
-		}
-		if(empty($options["type"]))
-		{
-			$this->view->data["content"] = $this->view->render("tools/trash_select", true);
-		}
-		else
-		{
-			if(!empty($options["from"]))
-			{
-				$this->view->data["from"] = implode("/", array_reverse(explode("-", $options["from"])));
-			}
-			if(!empty($options["to"]))
-			{
-				$this->view->data["to"] = implode("/", array_reverse(explode("-", $options["to"])));
-			}
-			$this->view->data["content"] = $this->view->render("tools/trash_list", true);
-		}
-		$this->view->render('main');
-	}
-
-	/**
 	 * Cargar tabla de elementos eliminados
 	 * 
 	 * Devuelve, en formato JSON o en un archivo Excel, la lista de usuarios.

@@ -2,24 +2,6 @@
 trait Entity
 {
 	/**
-	 * Datos de la entidad
-	 * 
-	 * Muestra un formulario para modificar información general de la entidad, como el nombre,
-	 * dirección, logotipo y formas de contacto.
-	 * 
-	 * @return void
-	 */
-	public function Entity()
-	{
-		$this->check_permissions("read", "entityData");
-		$this->view->data["title"] = _("Entity data");
-		$this->view->standard_form();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content"] = $this->view->render("settings/entity", true);
-		$this->view->render('main');
-	}
-
-	/**
 	 * Guardar entidad
 	 * 
 	 * Guarda cambios realizados en los datos de la entidad.

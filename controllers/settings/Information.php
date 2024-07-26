@@ -2,24 +2,6 @@
 trait Information
 {
 	/**
-	 * Acerca de
-	 * 
-	 * Muestra información acerca del sistema.
-	 * 
-	 * @return void
-	 */
-	public function About()
-	{
-		$this->session_required("html", $this->module);
-		$this->view->data["title"] = sprintf(_("About %s"), $this->system_name);
-		$this->view->standard_details();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content_id"] = "info_details";
-		$this->view->data["content"] = $this->view->render("content_loader", true);
-		$this->view->render('main');
-	}
-
-	/**
 	 * Carga de información del sistema
 	 * 
 	 * Imprime, en formato HTML, la información del sistema: datos de la última actualización e 

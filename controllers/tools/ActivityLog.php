@@ -2,41 +2,6 @@
 trait ActivityLog
 {
 	/**
-	 * Registro de actividades
-	 * 
-	 * Muestra una lista de las actividades realizadas por los usuarios en un rango de fechas.
-	 * 
-	 * @return void
-	 */
-	public function ActivityLog()
-	{
-		$this->check_permissions("read", "logs");
-		$args = func_get_args();
-		$options = Array();
-		for($i = 1; $i < func_num_args(); $i = $i + 2)
-		{
-			$options[$args[$i - 1]] = $args[$i];
-		}
-		if(empty($options["from"]) || empty($options["to"]))
-		{
-			$date = Date("Y-m-d");
-			header("Location: /" . $this->module . "/" . __FUNCTION__ . "/from/$date/to/$date/");
-			return;
-		}
-		$this->view->standard_list();
-		$this->view->set([
-			"title" => _("Activity log"),
-			"print_title" => _("Activity log")
-		]);
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["print_header"] = $this->view->render("print_header", true);
-		$this->view->data["from"] = implode("/", array_reverse(explode("-", $options["from"])));
-		$this->view->data["to"] = implode("/", array_reverse(explode("-", $options["to"])));
-		$this->view->data["content"] = $this->view->render("tools/activity_log", true);
-		$this->view->render('main');
-	}
-
-	/**
 	 * Cargar tabla de registro de actividades
 	 * 
 	 * Devuelve, en formato JSON o en un archivo Excel, la lista de actividades realizadas por

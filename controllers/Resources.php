@@ -16,11 +16,7 @@ class Resources extends Controller
 
 	public function index()
 	{
-		$this->view->data["title"] = _("Not authorized");
-		$this->view->standard_error();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content"] = $this->view->render("main/forbidden", true);
-		$this->view->render('main');
+		$this->json([]);
 	}
 
 	public function keep_alive()

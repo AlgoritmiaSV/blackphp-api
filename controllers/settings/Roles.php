@@ -2,25 +2,6 @@
 trait Roles
 {
 	/**
-	 * Roles
-	 * 
-	 * Muestra una lista de roles del sistema. Los roles sirven para gestionar los permisos de los usuarios.
-	 * 
-	 * @return void
-	 */
-	public function Roles()
-	{
-		$this->check_permissions("read", "roles");
-		$this->view->data["title"] = _("Roles");
-		$this->view->standard_list();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["print_title"] = _("Roles");
-		$this->view->data["print_header"] = $this->view->render("print_header", true);
-		$this->view->data["content"] = $this->view->render("settings/role_list", true);
-		$this->view->render('main');
-	}
-
-	/**
 	 * Nuevo rol
 	 * 
 	 * Muestra un formulario que permite registrar nuevos roles en el sistema, y asignarles
@@ -115,25 +96,6 @@ trait Roles
 		$this->view->data["role_elements"] = $role_elements;
 
 		$this->view->data["content"] = $this->view->render("settings/role_form", true);
-		$this->view->render('main');
-	}
-
-	/**
-	 * Detalles del rol
-	 * 
-	 * Muestra una hoja con los datos del rol y sus respectivos permisos.
-	 * @param int $role_id ID del usuario a consultar
-	 * 
-	 * @return void
-	 */
-	public function RoleDetails($role_id)
-	{
-		$this->check_permissions("read", "roles");
-		$this->view->data["title"] = _("Role details");
-		$this->view->standard_details();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content_id"] = "role_details";
-		$this->view->data["content"] = $this->view->render("content_loader", true);
 		$this->view->render('main');
 	}
 

@@ -14,13 +14,7 @@ class Index extends Controller
 
 	public function index()
 	{
-		$this->session_required();
-		$this->view->data["title"] = _("Home");
-		$this->view->standard_menu();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content_id"] = "home_content";
-		$this->view->data["content"] = $this->view->render("content_loader", true);
-		$this->view->render('main');
+		$this->json([]);
 	}
 
 	public function home_content_loader()

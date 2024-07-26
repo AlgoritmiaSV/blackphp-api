@@ -33,11 +33,7 @@ class MainError extends Controller
 	 */
 	function index() 
 	{
-		$this->view->data["title"] = 'Error';
-		$this->view->standard_error();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content"] = $this->view->render("main/error", true);
-		$this->view->render('main');
+		$this->json([]);
 	}
 }
 ?>

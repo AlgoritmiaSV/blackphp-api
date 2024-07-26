@@ -34,7 +34,7 @@ class User extends Controller
 	 */
 	public function index()
 	{
-		header("Location: /" . $this->module . "/MyAccount/");
+		$this->json([]);
 	}
 
 	/**
@@ -214,23 +214,6 @@ class User extends Controller
 		$data = Array("session" => false);
 		Session::destroy();
 		$this->json($data);
-	}
-
-	/**
-	 * Mi cuenta
-	 * 
-	 * Muestra un formulario con preferencias para la cuenta del usuario.
-	 * 
-	 * @return void
-	 */
-	public function MyAccount()
-	{
-		$this->session_required();
-		$this->view->data["title"] = _("My account");
-		$this->view->standard_form();
-		$this->view->data["nav"] = $this->view->render("main/nav", true);
-		$this->view->data["content"] = $this->view->render("user/my_account", true);
-		$this->view->render('main');
 	}
 
 	/**
